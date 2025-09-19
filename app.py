@@ -24,7 +24,7 @@ HISTORY_LEN = 12
 HORIZON = 12
 BATCH_SIZE = 64
 DEVICE = torch.device("cpu")
-MAPBOX_API_KEY = "pk.eyJ1IjoicGFydGh1YmhlIiwiYSI6ImNtZmp6bGlsNjEwMXMyanNhdjU0YmZtamsifQ.vD1YKgPOzpX_DMaqIbbpLQ"
+MAPBOX_API_KEY = ""
 VISUALIZATION_CACHE = {}
 
 # --- Model Hyperparameters ---
