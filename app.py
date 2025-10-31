@@ -352,7 +352,13 @@ def get_trained_models():
 
 # --- Flask Routes ---
 @app.route('/')
+def home():
+    """Renders the project description and landing page."""
+    return render_template('home.html')
+
+@app.route('/index')
 def index():
+    """Renders the main visualization and scenario analysis tool."""
     model_list = get_trained_models()
     return render_template('index.html', models=model_list)
 
